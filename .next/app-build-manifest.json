@@ -1,0 +1,78 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/departments/health/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/departments/health/page.js"
+    ],
+    "/departments/education/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/departments/education/page.js"
+    ],
+    "/directory/STD/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/directory/STD/page.js"
+    ],
+    "/directory/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/directory/page.js"
+    ],
+    "/directory/contact-directory/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/directory/contact-directory/page.js"
+    ],
+    "/district/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/district/page.js"
+    ],
+    "/parshad-list/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/parshad-list/page.css",
+      "static/chunks/app/parshad-list/page.js"
+    ],
+    "/departments/directorate/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/departments/directorate/page.js"
+    ],
+    "/departments/more/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/departments/more/page.js"
+    ],
+    "/directory/disaster/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/directory/disaster/page.js"
+    ],
+    "/district/org-chart/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/district/org-chart/page.js"
+    ],
+    "/district/tour/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/district/tour/page.css",
+      "static/chunks/app/district/tour/page.js"
+    ]
+  }
+}
