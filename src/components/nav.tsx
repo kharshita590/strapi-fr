@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Link from "next/link"; // Import the Link component
+import Link from "next/link"; 
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {

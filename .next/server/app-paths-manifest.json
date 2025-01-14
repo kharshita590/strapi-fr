@@ -1,8 +1,7 @@
 {
-  "/departments/education/page": "app/departments/education/page.js",
   "/departments/more/page": "app/departments/more/page.js",
   "/directory/STD/page": "app/directory/STD/page.js",
-  "/page": "app/page.js",
   "/parshad-list/page": "app/parshad-list/page.js",
+  "/page": "app/page.js",
   "/district/tour/page": "app/district/tour/page.js"
 }
