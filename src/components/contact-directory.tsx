@@ -200,143 +200,143 @@
 
 // export default ContactDirectory;
 
-"use client";
-import React from "react";
+// "use client";
+// import React from "react";
 
-const ContactDirectory: React.FC = () => {
-  const ayushData = [
-    {
-      id: 1,
-      profilePicture: "https://via.placeholder.com/150",
-      name: "Shri Dinesh Kumar Ahirwaa",
-      designation: "District Ayush Officer",
-      email: "dm123@gmail.com",
-      address: "Collector Office Vivekananda Chauraha Sanchi Road Vidisha",
-      phone: "7592234520",
-      roomNo: "101",
-    },
-  ];
+// const ContactDirectory: React.FC = () => {
+//   const ayushData = [
+//     {
+//       id: 1,
+//       profilePicture: "https://via.placeholder.com/150",
+//       name: "Shri Dinesh Kumar Ahirwaa",
+//       designation: "District Ayush Officer",
+//       email: "dm123@gmail.com",
+//       address: "Collector Office Vivekananda Chauraha Sanchi Road Vidisha",
+//       phone: "7592234520",
+//       roomNo: "101",
+//     },
+//   ];
 
-  const nicData = [
-    {
-      id: 2,
-      profilePicture: "https://via.placeholder.com/150",
-      name: "Shri M.L Ahirwar",
-      designation: "District Informatics-officer",
-      email: "mpvid@nic.in",
-      address: "",
-      phone: "75922235229",
-      roomNo: "76",
-    },
-  ];
+//   const nicData = [
+//     {
+//       id: 2,
+//       profilePicture: "https://via.placeholder.com/150",
+//       name: "Shri M.L Ahirwar",
+//       designation: "District Informatics-officer",
+//       email: "mpvid@nic.in",
+//       address: "",
+//       phone: "75922235229",
+//       roomNo: "76",
+//     },
+//   ];
 
-  const transportData = [
-    {
-      id: 3,
-      profilePicture: "https://via.placeholder.com/150",
-      name: "Shri Ramesh Gupta",
-      designation: "Transport Officer",
-      email: "ramesh.transport@vidisha.in",
-      address: "Transport Office, Vidisha",
-      phone: "9876543210",
-      fax: "123456789",
-      roomNo: "23",
-    },
-  ];
+//   const transportData = [
+//     {
+//       id: 3,
+//       profilePicture: "https://via.placeholder.com/150",
+//       name: "Shri Ramesh Gupta",
+//       designation: "Transport Officer",
+//       email: "ramesh.transport@vidisha.in",
+//       address: "Transport Office, Vidisha",
+//       phone: "9876543210",
+//       fax: "123456789",
+//       roomNo: "23",
+//     },
+//   ];
 
-  const renderTableRows = (data: any[]) =>
-    data.map((item) => (
-      <tr key={item.id} className="border-b hover:bg-gray-50">
-        <td className="p-4">
-          {item.profilePicture ? (
-            <img
-              src={item.profilePicture}
-              alt={item.name}
-              className="w-24 h-24 object-cover rounded-sm"
-            />
-          ) : (
-            <div className="w-24 h-24 bg-gray-200 flex items-center justify-center">
-              <span className="text-gray-500">No Image</span>
-            </div>
-          )}
-        </td>
-        <td className="p-4 font-medium">{item.name}</td>
-        <td className="p-4">{item.designation}</td>
-        <td className="p-4">{item.email}</td>
-        <td className="p-4">{item.address || "-"}</td>
-        <td className="p-4">{item.phone || "-"}</td>
-        {item.fax !== undefined ? <td className="p-4">{item.fax || "-"}</td> : null}
-        <td className="p-4">{item.roomNo || "-"}</td>
-      </tr>
-    ));
+//   const renderTableRows = (data: any[]) =>
+//     data.map((item) => (
+//       <tr key={item.id} className="border-b hover:bg-gray-50">
+//         <td className="p-4">
+//           {item.profilePicture ? (
+//             <img
+//               src={item.profilePicture}
+//               alt={item.name}
+//               className="w-24 h-24 object-cover rounded-sm"
+//             />
+//           ) : (
+//             <div className="w-24 h-24 bg-gray-200 flex items-center justify-center">
+//               <span className="text-gray-500">No Image</span>
+//             </div>
+//           )}
+//         </td>
+//         <td className="p-4 font-medium">{item.name}</td>
+//         <td className="p-4">{item.designation}</td>
+//         <td className="p-4">{item.email}</td>
+//         <td className="p-4">{item.address || "-"}</td>
+//         <td className="p-4">{item.phone || "-"}</td>
+//         {item.fax !== undefined ? <td className="p-4">{item.fax || "-"}</td> : null}
+//         <td className="p-4">{item.roomNo || "-"}</td>
+//       </tr>
+//     ));
 
-  return (
-    <div>
-      {/* Ayush Officer Section */}
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-xl font-bold text-black">District Ayush Officer Department</h1>
-        <div className="overflow-x-auto">
-          <table className="min-w-full bg-white">
-            <thead>
-              <tr className="bg-gray-200">
-                <th className="p-4 text-left">Profile Picture</th>
-                <th className="p-4 text-left">Name</th>
-                <th className="p-4 text-left">Designation</th>
-                <th className="p-4 text-left">Email</th>
-                <th className="p-4 text-left">Address</th>
-                <th className="p-4 text-left">Phone</th>
-                <th className="p-4 text-left">Room No</th>
-              </tr>
-            </thead>
-            <tbody>{renderTableRows(ayushData)}</tbody>
-          </table>
-        </div>
-      </div>
+//   return (
+//     <div>
+//       {/* Ayush Officer Section */}
+//       <div className="container mx-auto px-4 py-8">
+//         <h1 className="text-xl font-bold text-black">District Ayush Officer Department</h1>
+//         <div className="overflow-x-auto">
+//           <table className="min-w-full bg-white">
+//             <thead>
+//               <tr className="bg-gray-200">
+//                 <th className="p-4 text-left">Profile Picture</th>
+//                 <th className="p-4 text-left">Name</th>
+//                 <th className="p-4 text-left">Designation</th>
+//                 <th className="p-4 text-left">Email</th>
+//                 <th className="p-4 text-left">Address</th>
+//                 <th className="p-4 text-left">Phone</th>
+//                 <th className="p-4 text-left">Room No</th>
+//               </tr>
+//             </thead>
+//             <tbody>{renderTableRows(ayushData)}</tbody>
+//           </table>
+//         </div>
+//       </div>
 
-      {/* NIC Section */}
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-xl font-bold text-black">National Informatics Centre Vidisha</h1>
-        <div className="overflow-x-auto">
-          <table className="min-w-full bg-white">
-            <thead>
-              <tr className="bg-gray-200">
-                <th className="p-4 text-left">Profile Picture</th>
-                <th className="p-4 text-left">Name</th>
-                <th className="p-4 text-left">Designation</th>
-                <th className="p-4 text-left">Email</th>
-                <th className="p-4 text-left">Address</th>
-                <th className="p-4 text-left">Phone</th>
-                <th className="p-4 text-left">Room No</th>
-              </tr>
-            </thead>
-            <tbody>{renderTableRows(nicData)}</tbody>
-          </table>
-        </div>
-      </div>
+//       {/* NIC Section */}
+//       <div className="container mx-auto px-4 py-8">
+//         <h1 className="text-xl font-bold text-black">National Informatics Centre Vidisha</h1>
+//         <div className="overflow-x-auto">
+//           <table className="min-w-full bg-white">
+//             <thead>
+//               <tr className="bg-gray-200">
+//                 <th className="p-4 text-left">Profile Picture</th>
+//                 <th className="p-4 text-left">Name</th>
+//                 <th className="p-4 text-left">Designation</th>
+//                 <th className="p-4 text-left">Email</th>
+//                 <th className="p-4 text-left">Address</th>
+//                 <th className="p-4 text-left">Phone</th>
+//                 <th className="p-4 text-left">Room No</th>
+//               </tr>
+//             </thead>
+//             <tbody>{renderTableRows(nicData)}</tbody>
+//           </table>
+//         </div>
+//       </div>
 
-      {/* Transport Section */}
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-xl font-bold text-black">Transport</h1>
-        <div className="overflow-x-auto">
-          <table className="min-w-full bg-white">
-            <thead>
-              <tr className="bg-gray-200">
-                <th className="p-4 text-left">Profile Picture</th>
-                <th className="p-4 text-left">Name</th>
-                <th className="p-4 text-left">Designation</th>
-                <th className="p-4 text-left">Email</th>
-                <th className="p-4 text-left">Address</th>
-                <th className="p-4 text-left">Phone</th>
-                <th className="p-4 text-left">Fax</th>
-                <th className="p-4 text-left">Room No</th>
-              </tr>
-            </thead>
-            <tbody>{renderTableRows(transportData)}</tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  );
-};
+//       {/* Transport Section */}
+//       <div className="container mx-auto px-4 py-8">
+//         <h1 className="text-xl font-bold text-black">Transport</h1>
+//         <div className="overflow-x-auto">
+//           <table className="min-w-full bg-white">
+//             <thead>
+//               <tr className="bg-gray-200">
+//                 <th className="p-4 text-left">Profile Picture</th>
+//                 <th className="p-4 text-left">Name</th>
+//                 <th className="p-4 text-left">Designation</th>
+//                 <th className="p-4 text-left">Email</th>
+//                 <th className="p-4 text-left">Address</th>
+//                 <th className="p-4 text-left">Phone</th>
+//                 <th className="p-4 text-left">Fax</th>
+//                 <th className="p-4 text-left">Room No</th>
+//               </tr>
+//             </thead>
+//             <tbody>{renderTableRows(transportData)}</tbody>
+//           </table>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
-export default ContactDirectory;
+// export default ContactDirectory;
