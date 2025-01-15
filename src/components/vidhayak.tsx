@@ -8,7 +8,7 @@ const Vidhayak: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://strapi-sample-nzhn.onrender.com/api/vidhayaks?populate=*");
+        const response = await fetch("http://localhost:1337/api/vidhayaks?populate=*");
         const result = await response.json();
         const baseUrl = "http://localhost:1337";
 

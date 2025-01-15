@@ -6,7 +6,7 @@ const Education = () => {
    useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://strapi-sample-nzhn.onrender.com/educations?populate=*");
+        const response = await fetch("http://localhost:1337/educations?populate=*");
         const result = await response.json();
   
         if (result.data) {

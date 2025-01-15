@@ -7,7 +7,7 @@ const PoliceAdministratorTable: React.FC = () => {
   useEffect(()=>{
     const fetchData=async()=>{
       try{
-        const response = await fetch("https://strapi-sample-nzhn.onrender.com/api/police-admins?populate=*");
+        const response = await fetch("http://localhost:1337/api/police-admins?populate=*");
         const result = await response.json()
 
         if(result.data){

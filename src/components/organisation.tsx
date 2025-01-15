@@ -7,7 +7,7 @@ const OrganisationChart: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://strapi-sample-nzhn.onrender.com/api/organisation-charts"); 
+        const response = await fetch("http://localhost:1337/api/organisation-charts"); 
         const result = await response.json();
         
         if (result.data && result.data.length > 0) {

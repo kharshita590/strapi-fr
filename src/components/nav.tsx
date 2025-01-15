@@ -43,9 +43,9 @@ const Navbar = () => {
                 <li className="px-4 py-2 hover:bg-gray-200">
                   <Link href="/district/tour">पर्यटन</Link>
                 </li>
-                <li className="px-4 py-2 hover:bg-gray-200">
+                {/* <li className="px-4 py-2 hover:bg-gray-200">
                   <Link href="/district">परिचय</Link>
-                </li>
+                </li> */}
 
                 <li className="px-4 py-2 hover:bg-gray-200">
                   <Link href="/parshad-list">पार्षद सूची</Link>
@@ -70,9 +70,9 @@ const Navbar = () => {
                 <li className="px-4 py-2 hover:bg-gray-200">
                   <Link href="/departments/health">स्वास्थ्य</Link>
                 </li>
-                <li className="px-4 py-2 hover:bg-gray-200">
+                {/* <li className="px-4 py-2 hover:bg-gray-200">
                   <Link href="departments/more">अन्य</Link>
-                </li>
+                </li> */}
               </ul>
             )}
           </li>
@@ -90,16 +90,16 @@ const Navbar = () => {
             )}
             {dropdowns["निर्देशिका"] && (
               <ul className="absolute top-full left-0 bg-white text-black rounded shadow-lg py-2 z-20 w-40">
-                <li className="px-4 py-2 hover:bg-gray-200">
+                {/* <li className="px-4 py-2 hover:bg-gray-200">
                   <Link href="/directory/contact-directory">संपर्क निर्देशिका</Link>
-                </li>
+                </li> */}
                
                 <li className="px-4 py-2 hover:bg-gray-200">
                   <Link href="/directory/STD">स.टी.डी कोड</Link>
                 </li>
-                <li className="px-4 py-2 hover:bg-gray-200">
+                {/* <li className="px-4 py-2 hover:bg-gray-200">
                   <Link href="/directory">निर्देशिका</Link>
-                </li>
+                </li> */}
               </ul>
             )}
           </li>

@@ -1,7 +1,7 @@
 {
-  "/departments/more/page": "app/departments/more/page.js",
+  "/departments/health/page": "app/departments/health/page.js",
+  "/directory/contact-directory/page": "app/directory/contact-directory/page.js",
   "/directory/STD/page": "app/directory/STD/page.js",
-  "/parshad-list/page": "app/parshad-list/page.js",
-  "/page": "app/page.js",
-  "/district/tour/page": "app/district/tour/page.js"
+  "/directory/page": "app/directory/page.js",
+  "/page": "app/page.js"
 }

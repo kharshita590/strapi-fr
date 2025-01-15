@@ -3,7 +3,6 @@ import Header from "@/components/header";
 import Nav from "@/components/nav";
 import Health from "@/components/health";
 import Logo from '@/components/logo';
-import CMO from "@/components/cmo";
 const HealthPage:React.FC=()=>{
     return(
         <div>

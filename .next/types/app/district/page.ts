@@ -1,4 +1,4 @@
-// File: /Users/akhileshkumar/Desktop/nagar/frontend/frontend-next/src/app/district/page.tsx
+// File: /Users/akhileshkumar/Desktop/nagar-fr/strapi-fr/src/app/district/page.tsx
 import * as entry from '../../../../src/app/district/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
