@@ -65,7 +65,7 @@ const Health: React.FC = () => {
 
   return (
     <div className="">
-       {data.map((item,index)=>(
+       {data.map((item)=>(
       <div className="p-24 space-y-4">
         
       <h1 className="text-black font-bold text-3xl">
