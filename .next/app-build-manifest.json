@@ -18,11 +18,6 @@
       "static/css/app/district/tour/page.css",
       "static/chunks/app/district/tour/page.js"
     ],
-    "/district/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/district/page.js"
-    ],
     "/parshad-list/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -33,11 +28,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/departments/health/page.js"
-    ],
-    "/directory/contact-directory/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/directory/contact-directory/page.js"
     ],
     "/directory/STD/page": [
       "static/chunks/webpack.js",

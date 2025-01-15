@@ -1,7 +1,6 @@
 {
   "/departments/health/page": "app/departments/health/page.js",
-  "/directory/contact-directory/page": "app/directory/contact-directory/page.js",
-  "/directory/page": "app/directory/page.js",
   "/directory/STD/page": "app/directory/STD/page.js",
+  "/directory/page": "app/directory/page.js",
   "/page": "app/page.js"
 }
