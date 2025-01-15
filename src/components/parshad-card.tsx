@@ -10,7 +10,7 @@ const ParshadCard: React.FC = () => {
 
       "name":"श्री मनमोहन साहू",
       "pos":"अध्यक्ष",
-      "img":"/images/vidhayak.png"
+      "img":"/images/adyaksh.jpeg"
     },
     {
 
