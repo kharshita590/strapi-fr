@@ -1,7 +1,7 @@
 {
   "/page": "app/page.js",
   "/district/tour/page": "app/district/tour/page.js",
+  "/parshad-list/page": "app/parshad-list/page.js",
   "/directory/STD/page": "app/directory/STD/page.js",
-  "/sewaye/page": "app/sewaye/page.js",
-  "/parshad-list/page": "app/parshad-list/page.js"
+  "/sewaye/page": "app/sewaye/page.js"
 }

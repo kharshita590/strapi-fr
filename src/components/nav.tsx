@@ -3,20 +3,8 @@ import React, { useState } from "react";
 import Link from "next/link"; 
 
 const Navbar = () => {
-  type DropdownKey = "ज़िला" | "विभागों" | "निर्देशिका";
-
-  const [dropdowns, setDropdowns] = useState<Record<DropdownKey, boolean>>({
-    ज़िला: false,
-    विभागों: false,
-    निर्देशिका: false,
-  });
-
-  const toggleDropdown = (menu: DropdownKey) => {
-    setDropdowns((prev) => ({
-      ...prev,
-      [menu]: !prev[menu],
-    }));
-  };
+  
+  
 
   return (
     <div>
