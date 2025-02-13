@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link"; 
-import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
   type DropdownKey = "ज़िला" | "विभागों" | "निर्देशिका";
