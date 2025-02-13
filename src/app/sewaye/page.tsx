@@ -3,7 +3,7 @@ import React from "react";
 import Header from "@/components/header";
 import Logo from "@/components/logo";
 import Nav from "@/components/nav";
-import Footer from "@/components/footer";
+// import Footer from "@/components/footer";
 import ServiceCards from "@/components/nagrik";
 
 
@@ -19,7 +19,7 @@ const Sewaye = () => {
       <ServiceCards/>
       </div>
    
-   <Footer/>
+   {/* <Footer/> */}
     </div>
   );
 };

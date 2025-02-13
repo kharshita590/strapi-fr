@@ -78,7 +78,7 @@ import Info from "@/components/info";
 import Address from "@/components/address";
 import PhotoGallery from "@/components/photo-gallery";
 import EContact from "@/components/emergency";
-import Footer from "@/components/footer";
+// import Footer from "@/components/footer";
 import ServiceCards from "@/components/nagrik";
 import ParshadCard from "@/components/parshad-card";
 import Phone from "@/components/aapki";
@@ -115,7 +115,7 @@ const Home = () => {
       
     </div>
     <Scroll/>
-   <Footer/>
+   {/* <Footer/> */}
     </div>
   );
 };
