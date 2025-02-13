@@ -4,6 +4,9 @@ import "../app/wave.css";
 import Park from "./park";
 import Temple from "./temple";
 import Temple2 from "./temple-2";
+import Ganga from "./ganga";
+import Dushera from "./dusherra";
+import Puja from "./goverdhan";
 const Tourism: React.FC = () => {
        
 
@@ -12,6 +15,10 @@ const Tourism: React.FC = () => {
        <Park/>
        <Temple2/>
        <Temple/>
+       <Ganga/>
+              <Dushera/>
+              <Puja/>
+
     </div>
   );
 };

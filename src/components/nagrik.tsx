@@ -7,7 +7,12 @@ const ServiceCards = () => {
     { name: "नागरिक आपूर्ति", icon: "⚖️", bgColor: "bg-red-300", textColor: "text-black", link: "https://vidisha.nic.in/en/service-category/civil-supply/" },
     { name: "न्यायपालिका", icon: "👩‍⚖️", bgColor: "bg-orange-300", textColor: "text-black", link: "https://vidisha.nic.in/en/service-category/judiciary-cases/" },
     { name: "राजस्व", icon: "📊", bgColor: "bg-gray-300", textColor: "text-gray-900", link: "https://vidisha.nic.in/en/service-category/revenue/" },
-    { name: "देयक", icon: "💳", bgColor: "bg-blue-300", textColor: "text-blue-900", link: "https://vidisha.nic.in/en/service-category/bills/" },
+    { name: "सम्पति कर भुगतान", icon: "💳", bgColor: "bg-blue-300", textColor: "text-blue-900", link: "https://www.mpenagarpalika.gov.in:8005/sap/bc/webdynpro/sap/zpt_qpay?sap-client=500&sap-language=EN#" },
+    { name: "जल कर भुगतान", icon: "💳", bgColor: "bg-pink-300", textColor: "text-gray-900", link: "https://www.mpenagarpalika.gov.in:8001/sap/bc/webdynpro/sap/zwt_wd_billpay?sap-client=500#" },
+    { name: "जन्म और मृत्यु पंजीकरण", icon: "💳", bgColor: "bg-yellow-200", textColor: "text-gray-900", link: "https://dc.crsorgi.gov.in/crs/web/index.php/auth/login" },
+    { name: "टैंकर बुकिंग टैंकर अनुरोध", icon: "🚰", bgColor: "bg-[#CBC3E3]", textColor: "text-gray-900", link: "https://www.mpenagarpalika.gov.in/irj/portal/anonymous?NavigationTarget=navurl://11e71fab5cc6b0a928c2006096ff7c96" },
+    { name: "सेवा अनुरोध", icon: "", bgColor: "bg-red-300", textColor: "text-gray-900", link: "https://www.mpenagarpalika.gov.in/irj/portal/anonymous?NavigationTarget=navurl://e4df36848c88597820bd1f2cffff9a02" },
+
   ];
 
   return (

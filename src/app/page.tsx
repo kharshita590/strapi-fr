@@ -78,12 +78,16 @@ import Info from "@/components/info";
 import Address from "@/components/address";
 import PhotoGallery from "@/components/photo-gallery";
 import EContact from "@/components/emergency";
+import Footer from "@/components/footer";
 import ServiceCards from "@/components/nagrik";
 import ParshadCard from "@/components/parshad-card";
 import Phone from "@/components/aapki";
+import Scroll from "@/components/scroll";
 
 const Home = () => {
    const images =[
+    "/images/7.jpeg",
+    "/images/8.jpeg",
     "/images/4.jpeg",
     "/images/5.jpeg",
     "/images/6.jpeg"
@@ -108,8 +112,10 @@ const Home = () => {
     <div className="lg:flex flex flex-col lg:flex-row lg:space-x-12 lg:p-6 lg:px-12 space-y-6">
       <Address/>
       <PhotoGallery/>
+      
     </div>
-   
+    <Scroll/>
+   <Footer/>
     </div>
   );
 };

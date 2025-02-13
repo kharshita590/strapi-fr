@@ -53,32 +53,72 @@
 // export default Logo;
 "use client";
 import React from "react";
+import { Search, UserRound, Accessibility } from 'lucide-react';
 
 const Logo = () => {
-  const data = ["/images/logo.png"];
-
   return (
-    <div>
-      <div className="relative bg-white shadow">
-        <div className="flex lg:flex-col flex-row items-center justify-center py-4 lg:space-y-4">
-          {data.length > 0 ? (
-            <img
-              src={data[0]}
-              alt="Logo"
-              className="h-24 w-24 object-cover"
-            />
-          ) : (
-            <p>Loading logo...</p>
-          )}
-          <h1 className="text-2xl font-bold text-center text-black mx-4">
-            नगर पालिका सिरोंज<br />
-            जिला विदिशा (म.प्र.)
-          </h1>
+    <header>
+      <div className="bg-white border-b">
+        <div className="container mx-auto px-4 py-2 flex flex-wrap justify-between items-center text-xs sm:text-sm">
+          <div className="flex flex-wrap space-x-2 ">
+            <span className="text-gray-700">मध्यप्रदेश शासन</span>
+            <span className="text-gray-700">Government of Madhya Pradesh</span>
+          </div>
+
+          <div className=" items-center space-x-2 lg:flex hidden">
+            <a href="#main" className="text-gray-700 hover:text-gray-900">
+              SKIP TO MAIN CONTENT
+            </a>
+            <div className="hidden sm:flex items-center space-x-2">
+              <button className="p-1 hover:bg-gray-100 rounded-full">
+                <Search className="w-4 h-4 sm:w-5 sm:h-5" />
+              </button>
+              <button className="p-1 hover:bg-gray-100 rounded-full">
+                <UserRound className="w-4 h-4 sm:w-5 sm:h-5" />
+              </button>
+              <button className="p-1 hover:bg-gray-100 rounded-full">
+                <Accessibility className="w-4 h-4 sm:w-5 sm:h-5" />
+              </button>
+              <button className="px-2 py-1 hover:bg-gray-100 rounded text-xs sm:text-sm">
+                ENGLISH
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+
+   
+      <div className="bg-white shadow">
+        <div className="container mx-auto py-4 flex flex-wrap items-center justify-between">
+  
+  <div className="flex justify-center items-center ">
+  <img 
+            src="/images/logo.png" 
+            alt="Government Seal" 
+            className="h-16 sm:h-20 w-auto object-contain"
+          />
+
+          <div className="text-center sm:text-left flex flex-col">
+            <h1 className="text-lg sm:text-3xl font-bold text-gray-900">
+              जिला विदिशा
+            </h1>
+            <h2 className="text-sm sm:text-2xl font-bold text-gray-900">
+              नगर पालिका सिरोंज
+            </h2>
+          </div>
+  </div>
+        
+
+          
+          <img 
+            src="/images/digital-india-logo.jpeg"
+            alt="Digital India"
+            className="h-16 sm:h-20 w-auto object-contain"
+          />
+        </div>
+      </div>
+    </header>
   );
 };
 
 export default Logo;
-
