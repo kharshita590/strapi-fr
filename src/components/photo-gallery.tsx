@@ -70,7 +70,14 @@ const PhotoGallery = () => {
   const images =[
     "/images/4.jpeg",
     "/images/5.jpeg",
-    "/images/6.jpeg"
+    "/images/6.jpeg",
+     "/images/jal-ganga/g1.jpeg",
+     "/images/jal-ganga/g2.jpeg",
+     "/images/puja/p1.jpeg",
+     "/images/puja/p2.jpeg",
+     "/images/puja/p3.jpeg",
+
+
    ]
 
   
