@@ -86,6 +86,7 @@ import Scroll from "@/components/scroll";
 
 const Home = () => {
    const images =[
+    "/images/slider1.jpeg",
     "/images/7.jpeg",
     "/images/8.jpeg",
     "/images/4.jpeg",

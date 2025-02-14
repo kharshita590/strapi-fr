@@ -48,7 +48,7 @@ const Puja= () => {
     <div className="bg-white border border-gray-200 rounded-lg shadow-md lg:p-16 p-2">
  
       <div className="bg-[#00008B] text-white px-4 py-2 rounded-t-lg flex items-center">
-        <span className="text-xl font-bold">दशहरा</span>
+        <span className="text-xl font-bold">गोवर्धन पूजा</span>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4  bg-gray-50">
